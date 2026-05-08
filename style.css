@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1c2833;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 28rem;
+  height: 41rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #0f172b;
+  border: 2px solid #020618;
+  border-radius: 32px;
+  box-shadow: 10px 10px 30px #34495e;
+}
+
+.calculator {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  row-gap: 40px;
+  column-gap: 20px;
+  padding: 16px 8px;
+  background-color: #797d7f;
+  border: 2px solid #626567;
+  border-radius: 16px;
+  /* box-shadow: 1px 1.5px 10px #f2f3f4; */
+}
+
+.result {
+  width: 25rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  overflow-x: auto;
+  white-space: nowrap;
+  background-color: #99a3a4;
+  border: 2px solid #616a6b;
+  border-radius: 16px;
+  box-shadow: 1px 1.5px 10px #f2f3f4;
+}
+
+.btn {
+  width: 5rem;
+  height: 3.75rem;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #99a3a4;
+  border: 2px solid #616a6b;
+  border-radius: 16px;
+  box-shadow: 2px 3px 10px #f2f3f4;
+}
+
+img {
+  width: 2.5rem;
+}
